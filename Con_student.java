@@ -1,3 +1,5 @@
+/*Create a default constructor in the class Student that prints a message
+“Student object is created” when the program is run. */
 public class Con_student {
    public Con_student()
 	{
@@ -6,7 +8,7 @@ public class Con_student {
 	}
 public static void main(String[] args)
 {
-	Con_student obj =new Con_student();
+	new Con_student();
 	
 }
 }
