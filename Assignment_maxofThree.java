@@ -14,17 +14,20 @@ public class Assignment_maxofThree {
         System.out.println("Enter 3rd number");
         int num3 = in.nextInt();
         if(num1>num2){
-             System.out.println("Maximum of 3 numbers are: "+num1);
+            if(num1>num3){
+                System.out.println("Maximum of 3 numbers are: "+num1); 
+            }
+            else{
+             System.out.println("Maximum of 3 numbers are: "+num3);
+            }
         }
         else if(num2>num3){
                 System.out.println("Maximum of 3 numbers are: "+num2);
              }
-        else if(num3>num1){
-                    System.out.println("Maximum of 3 numbers are: "+num3);
+        else {
+                System.out.println("Maximum of 3 numbers are: "+num3);
                 }
-        else{
-                System.out.println("All numbers are equal");
-            }
+        
         }
     }
 }
